@@ -13,6 +13,52 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        var hello: String = "hello world"
+//        println(hello.wordCount('l'))  // 3 l in helloworld
+//        println(hello.wordCount('o'))  // 2 o in helloworld
+//        println(4.square())     // 4*4
+//        println(6.square())     // 6*6
+
+//        val hello: String? = "hello kotlin"
+//        val message: String = hello as String
+//        println(message)
+//
+//        val tom = Person("Tom")
+//        if (tom.phone is SmartPhone){
+//            println("smartphone : ${tom.phone.name}, os: ${tom.phone.os}")
+//        } else {
+//            println("Phone: ${tom.phone.name}")
+//        }
+
+//        val tom = Person("tom", "1234")
+//        if (tom is Person) println("tom person")
+//        else println("tom not person")
+
+//        val s: String = "12"
+//        try {
+//            val d: Int = s.toInt()
+//            println(d)
+//        } catch (e: Exception){
+//            println(e.message)
+//        }
+//        val c: Int = "12".toInt()
+
+//        var tom: Person? = Person("tom", "12345")
+//        val tomName: String? = tom?.username?.uppercase() ?: "Undefined"
+//        println(tomName)  // TOM
+//
+//        var bob: Person? = null
+//        val bobName: String? = bob?.username?.uppercase() ?: "Undefined"
+//        println(bobName)  // null
+//
+//        try {
+//            val name: String? = "Tom"
+//            val id: Int = name!!.length
+//            println(id)
+//        } catch (e: Exception){
+//            println(e.message)
+//        }
+
 //        val tom = createPerson("tom", "jetbread")
 //        tom.sayHello()
 
@@ -58,4 +104,24 @@ class MainActivity : AppCompatActivity() {
 //        fun sayHello() = println("hi my name is $name i work in $company")
 //    }
 
+//    open class Phone(val name: String)
+//    class SmartPhone(name: String, val os: String): Phone(name)
+//
+//    open class Person(val name: String){
+//        val phone: Phone = SmartPhone("Pixel 6", "android")
+//    }
+
+//    private fun String.wordCount(c: Char): Int {
+//        var count = 0
+//        for (n in this){
+//            if (n == c) count++
+//        }
+//        return count
+//    }
+//    private fun Int.square(): Int {
+//        return this * this
+//    }
+
 }
+
+
